@@ -257,11 +257,16 @@ body {
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 900;
   font-size: clamp(4rem, 8vw, 8rem);
-  line-height: 0.76;
-  color: var(--text-primary);
+  line-height: 0.9;
+  background: var(--brand-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   margin-bottom: 24px;
   letter-spacing: -0.02em;
+  position: relative;
+  animation: glow 3s ease-in-out infinite alternate;
 }
 
 /* Main Content */
