@@ -21,17 +21,20 @@
   --border-medium: #3f4816;                 /* Standard olive borders */
   --border-strong: #888680;                 /* Strong gray borders */
   
-  /* MAIN BRAND COLORS - Pixel Pushers Brand Colors Only */
-  --brand-primary: #d9fb06;                 /* Primary lime green */
-  --brand-hover: rgba(217, 251, 6, 0.8);   /* Hover state */
-  --brand-active: rgba(217, 251, 6, 0.6);  /* Active/pressed state */
+  /* CREATIVE ARTIST BRAND COLORS */
+  --brand-primary: #ff6b35;                 /* Vibrant coral orange */
+  --brand-hover: rgba(255, 107, 53, 0.8);  /* Hover state */
+  --brand-active: rgba(255, 107, 53, 0.6); /* Active/pressed state */
+  --brand-gradient: linear-gradient(135deg, #ff6b35, #f7931e, #ffcc02); /* Creative gradient */
   
-  /* Supporting Colors - Use sparingly for variety */
-  --secondary-olive: #3f4816;               /* Dark olive green */
-  --secondary-yellow: #f8d47a;              /* Warm yellow accent */
-  --secondary-blue: #0073e6;                /* Blue for links */
-  --neutral-white: white;                   /* Pure white */
-  --neutral-light: #dfddd6;                 /* Light neutral */
+  /* Supporting Colors - Creative Palette */
+  --secondary-purple: #8e44ad;             /* Deep purple */
+  --secondary-blue: #3498db;               /* Bright blue */
+  --secondary-pink: #e91e63;               /* Vibrant pink */
+  --accent-yellow: #f39c12;                /* Golden yellow */
+  --accent-teal: #1abc9c;                  /* Turquoise */
+  --neutral-white: #ffffff;                /* Pure white */
+  --neutral-light: #f8f9fa;                /* Light neutral */
 }
 
 /* Global Styles */
