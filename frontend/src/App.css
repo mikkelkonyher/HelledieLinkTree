@@ -398,6 +398,18 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
+.placeholder-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 17px;
+  transition: all 0.3s ease;
+}
+
+.member-image-placeholder:hover .placeholder-image {
+  transform: scale(1.02);
+}
+
 .image-text {
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 600;
