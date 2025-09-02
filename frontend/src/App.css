@@ -530,11 +530,25 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  .member-container {
-    gap: 40px;
+  .main-content {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px 30px 50px;
   }
   
-  .member-content {
-    padding: 30px;
+  .member-container {
+    min-height: 400px;
+  }
+  
+  .member-image-container {
+    height: 180px;
+  }
+  
+  .member-name {
+    font-size: clamp(1.2rem, 2vw, 1.6rem);
+  }
+  
+  .member-description {
+    font-size: 0.9rem;
   }
 }
