@@ -344,6 +344,18 @@ body {
   color: var(--text-primary);
   text-transform: uppercase;
   margin-bottom: 24px;
+  position: relative;
+}
+
+.member-name::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: var(--brand-gradient);
+  border-radius: 2px;
 }
 
 .member-description {
