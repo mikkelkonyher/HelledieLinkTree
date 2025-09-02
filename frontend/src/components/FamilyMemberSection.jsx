@@ -6,7 +6,11 @@ export const FamilyMemberSection = ({ member, content }) => {
       <div className="member-container">
         <div className="member-image-container">
           <div className="member-image-placeholder">
-            <span className="image-text">{member.name}</span>
+            <img 
+              src={`https://picsum.photos/400/400?random=${member.id}`}
+              alt={member.name}
+              className="placeholder-image"
+            />
           </div>
         </div>
         <div className="member-content">
