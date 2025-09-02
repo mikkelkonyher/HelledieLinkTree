@@ -420,21 +420,22 @@ body {
 .member-name {
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 900;
-  font-size: clamp(2rem, 4vw, 3rem);
-  line-height: 0.9;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  line-height: 1.1;
   color: var(--text-primary);
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   position: relative;
 }
 
 .member-name::after {
   content: '';
   position: absolute;
-  bottom: -8px;
-  left: 0;
-  width: 60px;
-  height: 4px;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 3px;
   background: var(--brand-gradient);
   border-radius: 2px;
 }
