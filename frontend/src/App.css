@@ -308,11 +308,15 @@ body {
   animation: glow 3s ease-in-out infinite alternate;
 }
 
-/* Main Content */
+/* Compact Main Content */
 .main-content {
   max-width: 87.5rem;
   margin: 0 auto;
-  padding: 96px 40px;
+  padding: 20px 40px 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  align-items: start;
 }
 
 /* Creative Family Member Sections */
