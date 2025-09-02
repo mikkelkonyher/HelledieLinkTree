@@ -410,14 +410,7 @@ body {
   transform: scale(1.02);
 }
 
-.image-text {
-  font-family: 'Inter', Arial, sans-serif;
-  font-weight: 600;
-  font-size: 1.25rem;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
+
 
 .member-content {
   padding: 40px;
