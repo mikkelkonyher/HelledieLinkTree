@@ -3,18 +3,18 @@
 
 /* Gilshar Design System - Helledie Landing Page */
 
-/* CSS Variables - Exact Pixel Pushers Colors */
+/* CSS Variables - Clean White Theme */
 :root {
-  /* Backgrounds - Exact Pixel Pushers Colors */
-  --bg-page: #1a1c1b;                       /* Main black background */
-  --bg-card: #302f2c;                       /* Dark gray card backgrounds */
-  --bg-light: #dfddd6;                      /* Light backgrounds when needed */
+  /* Backgrounds - Clean White Theme */
+  --bg-page: #ffffff;                       /* Clean white background */
+  --bg-card: #f8f9fa;                       /* Light gray card backgrounds */
+  --bg-light: #ffffff;                      /* Pure white backgrounds */
   
-  /* Text - Exact Pixel Pushers Colors */
-  --text-primary: #d9fb06;                  /* Lime green primary text */
-  --text-secondary: #888680;                /* Mid gray supporting text */
-  --text-muted: #302f2c;                    /* Dark gray muted text */
-  --text-inverse: #1a1c1b;                  /* Black text on light backgrounds */
+  /* Text - Clean White Theme */
+  --text-primary: #1a1c1b;                  /* Dark text for headings */
+  --text-secondary: #6c757d;                /* Mid gray supporting text */
+  --text-muted: #adb5bd;                    /* Light gray muted text */
+  --text-inverse: #ffffff;                  /* White text on dark backgrounds */
   
   /* Borders - Exact Pixel Pushers Colors */
   --border-light: rgba(63, 72, 22, 0.5);   /* Subtle olive-tinted borders */
