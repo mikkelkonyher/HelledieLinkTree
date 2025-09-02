@@ -319,32 +319,31 @@ body {
   align-items: start;
 }
 
-/* Creative Family Member Sections */
+/* Compact Family Member Cards */
 .family-member-section {
-  margin-bottom: 120px;
   position: relative;
-}
-
-.family-member-section:last-child {
-  margin-bottom: 0;
+  height: 100%;
 }
 
 .family-member-section:nth-child(1) .member-container {
   background: linear-gradient(135deg, rgba(255, 107, 53, 0.05), rgba(247, 147, 30, 0.05));
-  border-radius: 30px;
-  padding: 40px;
+  border-radius: 25px;
+  padding: 25px;
+  height: 100%;
 }
 
 .family-member-section:nth-child(2) .member-container {
   background: linear-gradient(135deg, rgba(142, 68, 173, 0.05), rgba(52, 152, 219, 0.05));
-  border-radius: 30px;
-  padding: 40px;
+  border-radius: 25px;
+  padding: 25px;
+  height: 100%;
 }
 
 .family-member-section:nth-child(3) .member-container {
   background: linear-gradient(135deg, rgba(233, 30, 99, 0.05), rgba(26, 188, 156, 0.05));
-  border-radius: 30px;
-  padding: 40px;
+  border-radius: 25px;
+  padding: 25px;
+  height: 100%;
 }
 
 .member-container {
