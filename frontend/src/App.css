@@ -220,9 +220,10 @@ body {
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(26, 28, 27, 0.95);
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(15px);
   padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 107, 53, 0.1);
 }
 
 .header-container {
