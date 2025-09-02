@@ -453,7 +453,9 @@ body {
 }
 
 .member-btn {
-  align-self: flex-start;
+  padding: 0.75em 1.5em;
+  font-size: 0.875rem;
+  min-height: 44px;
 }
 
 /* Creative Footer */
