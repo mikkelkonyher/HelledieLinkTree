@@ -451,11 +451,13 @@ body {
   align-self: flex-start;
 }
 
-/* Footer */
+/* Creative Footer */
 .site-footer {
-  background: var(--bg-page);
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.02), rgba(247, 147, 30, 0.02));
   padding: 60px 40px 40px;
-  border-top: 1px solid var(--border-medium);
+  border-top: 3px solid;
+  border-image: var(--brand-gradient) 1;
+  margin-top: 60px;
 }
 
 .footer-container {
