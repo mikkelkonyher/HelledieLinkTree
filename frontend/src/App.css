@@ -485,6 +485,16 @@ body {
 
 /* Creative Responsive Design */
 @media (max-width: 767px) {
+  /* Global mobile readability improvements */
+  body {
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  .btn-primary {
+    font-size: 1rem;
+    padding: 0.9em 1.8em;
+    min-height: 48px;
+  }
   .header-container {
     padding: 0 20px;
   }
@@ -495,7 +505,7 @@ body {
   }
   
   .hero-title {
-    font-size: clamp(2.2rem, 8vw, 3.5rem);
+    font-size: clamp(2.4rem, 9vw, 3.6rem);
   }
   
   .main-content {
@@ -508,6 +518,7 @@ body {
     min-height: 380px;
     border-radius: 16px;
     padding: 25px 20px;
+    flex-direction: column;
   }
   
   .member-image-container {
@@ -524,13 +535,14 @@ body {
   }
   
   .member-name {
-    font-size: clamp(1.2rem, 4vw, 1.6rem);
-    margin-bottom: 12px;
+    font-size: clamp(1.35rem, 5vw, 1.9rem);
+    margin-bottom: 14px;
   }
   
   .member-description {
-    font-size: 0.9rem;
-    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 22px;
   }
   
   .member-btn {
@@ -546,7 +558,29 @@ body {
   
   .toggle-btn {
     border-radius: 12px;
-    padding: 6px 12px;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+
+  /* Bigger vertical cards for Lene, DJ Ole, and DJ Sofia on mobile */
+  .family-member-section.member--highlight .member-container {
+    min-height: 460px;
+    padding: 28px 22px;
+  }
+  .family-member-section.member--highlight .member-image-container {
+    height: 240px;
+  }
+  .family-member-section.member--highlight .member-name {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+  .family-member-section.member--highlight .member-description {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+  .family-member-section.member--highlight .member-btn {
+    font-size: 1.05rem;
+    padding: 1em 1.8em;
+    min-height: 50px;
   }
 }
 

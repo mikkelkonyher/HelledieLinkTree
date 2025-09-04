@@ -2,7 +2,7 @@ import React from 'react';
 
 export const FamilyMemberSection = ({ member, content }) => {
   return (
-    <section className="family-member-section fade-in">
+    <section className={`family-member-section fade-in ${['Lene Helledie','DJ Ole Helledie','DJ Sofia Núñez Helledie'].includes(member.name) ? 'member--highlight' : ''}`}>
       <div className="member-container">
         <div className="member-image-container">
           <div className="member-image-placeholder">
