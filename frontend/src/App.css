@@ -251,31 +251,23 @@ body {
   align-items: start;
 }
 
-/* Compact Family Member Cards */
+/* Clean Family Member Cards */
 .family-member-section {
   position: relative;
   height: 100%;
 }
 
-.family-member-section:nth-child(1) .member-container {
-  background: linear-gradient(135deg, rgba(255, 107, 53, 0.05), rgba(247, 147, 30, 0.05));
-  border-radius: 25px;
-  padding: 25px;
+.member-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  padding: 30px 20px;
   height: 100%;
+  transition: all 0.2s ease;
 }
 
-.family-member-section:nth-child(2) .member-container {
-  background: linear-gradient(135deg, rgba(142, 68, 173, 0.05), rgba(52, 152, 219, 0.05));
-  border-radius: 25px;
-  padding: 25px;
-  height: 100%;
-}
-
-.family-member-section:nth-child(3) .member-container {
-  background: linear-gradient(135deg, rgba(233, 30, 99, 0.05), rgba(26, 188, 156, 0.05));
-  border-radius: 25px;
-  padding: 25px;
-  height: 100%;
+.member-container:hover {
+  border-color: var(--border-medium);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .member-container {
