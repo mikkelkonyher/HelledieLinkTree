@@ -2,7 +2,7 @@ import React from 'react';
 
 export const FamilyMemberSection = ({ member, content }) => {
   return (
-    <section className="family-member-section animate-slide-up">
+    <section className="family-member-section fade-in">
       <div className="member-container">
         <div className="member-image-container">
           <div className="member-image-placeholder">
