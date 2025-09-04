@@ -230,19 +230,14 @@ body {
 }
 
 .hero-title {
-  font-family: 'Inter', Arial, sans-serif;
-  font-weight: 900;
-  font-size: clamp(4rem, 8vw, 8rem);
-  line-height: 0.9;
-  background: var(--brand-gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-transform: uppercase;
-  margin-bottom: 24px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: 40px;
   letter-spacing: -0.02em;
-  position: relative;
-  animation: glow 3s ease-in-out infinite alternate;
+  text-align: center;
 }
 
 /* Compact Main Content */
