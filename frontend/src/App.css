@@ -376,7 +376,12 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: all 0.2s ease;
+  border-radius: 14px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.member-image-placeholder:hover .placeholder-image {
+  transform: scale(1.05);
 }
 
 
