@@ -276,13 +276,26 @@ body {
 
 .hero-title {
   font-family: 'Georgia', 'Times New Roman', serif;
-  font-weight: 400;
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  line-height: 1.2;
+  font-weight: 500;
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  line-height: 1.1;
   color: var(--text-primary);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   letter-spacing: -0.02em;
   text-align: center;
+  position: relative;
+}
+
+.hero-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-warm), var(--accent-cool));
+  border-radius: 2px;
 }
 
 /* Compact Main Content */
