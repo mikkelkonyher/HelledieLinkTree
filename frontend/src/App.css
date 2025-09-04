@@ -283,7 +283,7 @@ body {
   align-items: start;
 }
 
-/* Clean Family Member Cards */
+/* Creative Family Member Cards */
 .family-member-section {
   position: relative;
   height: 100%;
@@ -292,14 +292,47 @@ body {
 .member-container {
   background: var(--bg-card);
   border: 1px solid var(--border-light);
+  border-radius: 20px;
   padding: 30px 20px;
   height: 100%;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  position: relative;
+  overflow: hidden;
+}
+
+.member-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-warm), var(--accent-cool));
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .member-container:hover {
-  border-color: var(--border-medium);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-color: var(--border-accent);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.member-container:hover::before {
+  opacity: 1;
+}
+
+.family-member-section:nth-child(1) .member-container::before {
+  background: linear-gradient(90deg, #e6772e, #ed8936);
+}
+
+.family-member-section:nth-child(2) .member-container::before {
+  background: linear-gradient(90deg, #4299e1, #63b3ed);
+}
+
+.family-member-section:nth-child(3) .member-container::before {
+  background: linear-gradient(90deg, #38b2ac, #4fd1c7);
 }
 
 .member-container {
