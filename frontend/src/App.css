@@ -289,34 +289,18 @@ body {
 .member-image-placeholder {
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, var(--bg-card), #e9ecef);
-  border: 3px solid transparent;
-  background-clip: padding-box;
+  background: var(--bg-light);
+  border: 1px solid var(--border-light);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-}
-
-.member-image-placeholder::before {
-  content: '';
-  position: absolute;
-  top: -3px;
-  left: -3px;
-  right: -3px;
-  bottom: -3px;
-  background: var(--brand-gradient);
-  border-radius: 23px;
-  z-index: -1;
+  transition: all 0.2s ease;
 }
 
 .member-image-placeholder:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-color: var(--border-medium);
 }
 
 .placeholder-image {
