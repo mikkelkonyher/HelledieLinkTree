@@ -10,9 +10,9 @@ export const siteContent = {
         buttonText: "Visit Lene Helledie Art"
       },
       {
-        name: "Ole DJ Helledie", 
+        name: "DJ Ole Helledie",
         description: "Curating soundscapes, spinning tracks that move hearts and feet alike.",
-        buttonText: "Visit Ole DJ Helledie Webpage"
+        buttonText: "Visit DJ Ole Helledie Webpage"
       },
       {
         name: "DJ Sofia Núñez Helledie",
@@ -32,9 +32,9 @@ export const siteContent = {
         buttonText: "Besøg Lene Helledie Art"
       },
       {
-        name: "Ole DJ Helledie",
+        name: "DJ Ole Helledie",
         description: "Kuraterer lydlandskaber, spiller numre der bevæger hjerter og fødder.",
-        buttonText: "Besøg Ole DJ Helledie Hjemmeside"
+        buttonText: "Besøg DJ Ole Helledie Hjemmeside"
       },
       {
         name: "DJ Sofia Núñez Helledie", 
@@ -50,18 +50,18 @@ export const familyMembers = [
     id: 1,
     name: "Lene Helledie",
     type: "artist",
-    image: "/placeholder-lene.jpg"
+    image: "/assets/Lene3 kopier.jpeg"
   },
   {
     id: 2, 
-    name: "Ole DJ Helledie",
+    name: "DJ Ole Helledie",
     type: "dj",
-    image: "/placeholder-ole.jpg"
+    image: "/assets/5F9C9A25-D580-419C-ADE0-510F8C288D77.JPG"
   },
   {
     id: 3,
     name: "DJ Sofia Núñez Helledie", 
     type: "dj",
-    image: "/placeholder-sofia.jpg"
+    image: "/assets/sofiaCropped.jpg"
   }
 ];
