@@ -128,33 +128,27 @@ body {
 
 .btn-secondary {
   background: transparent;
-  color: var(--brand-primary);
-  border: 2px solid var(--brand-primary);
-  border-radius: 25px;
-  padding: 1em 2em;
+  color: var(--text-secondary);
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.5em 0;
   font-family: 'Inter', Arial, sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 0.9rem;
   cursor: pointer;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  min-height: 50px;
+  transition: all 0.2s ease;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  line-height: 1.1em;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  position: relative;
-  overflow: hidden;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
 }
 
 .btn-secondary:hover {
-  background: var(--brand-gradient);
-  color: var(--text-inverse);
-  border-color: transparent;
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
+  color: var(--brand-primary);
+  border-bottom-color: var(--border-medium);
 }
 
 /* Layout Components */
