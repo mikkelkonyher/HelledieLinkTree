@@ -363,11 +363,10 @@ body {
 
 .footer-text {
   font-family: 'Inter', Arial, sans-serif;
-  font-weight: 500;
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
 }
 
 /* Responsive Design */
