@@ -42,7 +42,7 @@ export const LandingPage = () => {
       {/* Footer */}
       <footer className="site-footer">
         <div className="footer-container">
-          <p className="footer-text">© {new Date().getFullYear()} Helledie Family</p>
+          <p className="footer-text">© {new Date().getFullYear()} Helledie</p>
         </div>
       </footer>
     </div>
