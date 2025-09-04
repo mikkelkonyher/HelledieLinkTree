@@ -3,32 +3,36 @@
 
 /* Gilshar Design System - Helledie Landing Page */
 
-/* Minimalistic Classic Art Variables */
+/* Creative Minimalistic Art Variables */
 :root {
-  /* Clean Backgrounds */
-  --bg-page: #ffffff;                       /* Pure white background */
-  --bg-card: #ffffff;                       /* White card backgrounds */
-  --bg-light: #fafafa;                      /* Very light gray for subtle contrast */
+  /* Clean Backgrounds with Creative Touch */
+  --bg-page: #fefefe;                       /* Warm white background */
+  --bg-card: #ffffff;                       /* Pure white card backgrounds */
+  --bg-light: #f8f9fa;                      /* Light gray for subtle contrast */
+  --bg-accent: #f5f7fa;                     /* Subtle blue-gray accent */
   
-  /* Classic Typography Colors */
-  --text-primary: #2c2c2c;                  /* Dark charcoal for headings */
-  --text-secondary: #666666;                /* Medium gray for body text */
-  --text-muted: #999999;                    /* Light gray for muted text */
+  /* Creative Typography Colors */
+  --text-primary: #1a1a1a;                  /* Rich black for headings */
+  --text-secondary: #555555;                /* Warm gray for body text */
+  --text-muted: #888888;                    /* Light gray for muted text */
   --text-inverse: #ffffff;                  /* White text on dark backgrounds */
   
-  /* Subtle Borders */
+  /* Soft Creative Borders */
   --border-light: #f0f0f0;                  /* Very light border */
-  --border-medium: #e0e0e0;                 /* Subtle gray border */
+  --border-medium: #e5e5e5;                 /* Subtle gray border */
   --border-strong: #d0d0d0;                 /* Defined but gentle border */
+  --border-accent: #dde7f0;                 /* Soft blue-gray border */
   
-  /* Minimal Brand Colors */
-  --brand-primary: #2c2c2c;                 /* Dark charcoal for links */
-  --brand-hover: #000000;                   /* Black for hover */
-  --brand-active: #555555;                  /* Medium gray for active */
+  /* Creative Brand Colors */
+  --brand-primary: #4a5568;                 /* Sophisticated blue-gray */
+  --brand-hover: #2d3748;                   /* Darker blue-gray for hover */
+  --brand-active: #718096;                  /* Lighter blue-gray for active */
+  --accent-warm: #e6772e;                   /* Warm orange accent */
+  --accent-cool: #4299e1;                   /* Cool blue accent */
   
-  /* Classic Neutral Palette */
+  /* Creative Neutral Palette */
   --neutral-white: #ffffff;                 /* Pure white */
-  --neutral-light: #fafafa;                 /* Light neutral */
+  --neutral-light: #f7fafc;                 /* Light neutral with warmth */
 }
 
 /* Minimal Fade Animation */
