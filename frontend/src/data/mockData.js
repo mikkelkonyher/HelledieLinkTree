@@ -50,18 +50,21 @@ export const familyMembers = [
     id: 1,
     name: "Lene Helledie",
     type: "artist",
-    image: "/assets/Lene3 kopier.jpeg"
+    image: "/assets/Lene3 kopier.jpeg",
+    url: "https://lene.helledie.dk/"
   },
   {
     id: 2, 
     name: "DJ Ole Helledie",
     type: "dj",
-    image: "/assets/5F9C9A25-D580-419C-ADE0-510F8C288D77.JPG"
+    image: "/assets/5F9C9A25-D580-419C-ADE0-510F8C288D77.JPG",
+    url: "https://dj.helledie.dk"
   },
   {
     id: 3,
     name: "DJ Sofia Núñez Helledie", 
     type: "dj",
-    image: "/assets/sofiaCropped.jpg"
+    image: "/assets/sofiaCropped.jpg",
+    url: "https://www.instagram.com/sofiahelledie/" // Placeholder for Sofia's link
   }
 ];

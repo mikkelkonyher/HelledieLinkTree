@@ -1,6 +1,12 @@
 import React from 'react';
 
 export const FamilyMemberSection = ({ member, content }) => {
+  const handleButtonClick = () => {
+    if (member.url && member.url !== '#') {
+      window.open(member.url, '_blank');
+    }
+  };
+
   return (
     <section className={`family-member-section fade-in ${['Lene Helledie','DJ Ole Helledie','DJ Sofia Núñez Helledie'].includes(member.name) ? 'member--highlight' : ''}`}>
       <div className="member-container">
@@ -17,7 +23,11 @@ export const FamilyMemberSection = ({ member, content }) => {
         <div className="member-content">
           <h2 className="member-name">{member.name}</h2>
           <p className="member-description">{content.description}</p>
-          <button className="btn-primary member-btn">
+          <button 
+            className="btn-primary member-btn"
+            onClick={handleButtonClick}
+            disabled={!member.url || member.url === '#'}
+          >
             {content.buttonText}
           </button>
         </div>
