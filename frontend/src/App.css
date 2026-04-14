@@ -370,6 +370,12 @@ body {
   min-height: 450px;
 }
 
+a.member-container {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 .member-image-container {
   position: relative;
   width: 100%;
